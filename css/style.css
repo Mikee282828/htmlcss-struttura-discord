@@ -17,7 +17,7 @@
     padding:2rem 0;
 }
 
-.container1,.container2,.container3,.container4,.container5{
+.container1,.container2,.container3,.container4,.container5,.container6{
     border:dotted black;
 }
 
@@ -37,7 +37,6 @@
 }
 .pink{
     background-color: rgb(255,192,203);
-
 }
 .light_blue{
     background-color: rgb(30, 144, 255);
@@ -48,7 +47,21 @@
 .green{
     background-color: rgb(34, 139, 34);
 }
-
+.black{
+    background-color: rgb(35, 39, 42);
+}
+.pink2{
+    background-color: rgb(240, 128, 128);
+}
+.acqua{
+    background-color: rgb(32, 178, 170);
+}
+.acqua2{
+    background-color: rgb(127, 255, 212);
+}
+.pink3{
+    background-color: rgb(255, 182, 193);
+}
 /************** prima sezione **********+*/
 
 .title{
@@ -94,6 +107,32 @@
     width:100%;
 }
 
+/**************** footer *******************/
 
+.container5,.container6,.flex-container2{
+    height:20rem;
+}
 
+.container5{
+    width:calc((100% / 6)*2);
+}
+.flex-container2{
+    width:calc((100% / 6)*4);
+    display:flex;
+    justify-content:space-between;
+}
+.container6{
+    border:dotted white;
+    width:calc(100% / 4);
+}
+
+.flex-container3{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:3rem;
+}
+button{
+    border:black dotted;
+}
 
