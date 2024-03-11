@@ -17,6 +17,10 @@
     padding:2rem 0;
 }
 
+.container1,.container2,.container3,.container4,.container5{
+    border:dotted black;
+}
+
 /************** colori **********+*/
 
 .celeste{
@@ -40,6 +44,9 @@
 }
 .grey{
     background-color:rgb(211, 211, 211);
+}
+.green{
+    background-color: rgb(34, 139, 34);
 }
 
 /************** prima sezione **********+*/
@@ -68,12 +75,10 @@
 .container1{
     height:13rem;
     width:35rem;
-    border:dotted black;
 }
 /*************** seconda sezione *****************/
 
 .container2,.container3{
-    border:dotted black;
     height:20rem;
 }
 .container2{
@@ -82,6 +87,13 @@
 .container3{
     width:40%;
 }
-/***************** terza sezione ******************/
+/**************** quinta sezione ******************/
+
+.container4{
+    height:30rem;
+    width:100%;
+}
+
+
 
 
