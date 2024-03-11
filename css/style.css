@@ -1,10 +1,64 @@
-:root{
-    
-}
-
 *{
     box-sizing: border-box;
     font-family: sans-serif;
-    padding:1 rem;
     margin:0;
+    font-family: sans-serif;
+    padding:0;
 }
+.mid{
+    width:800px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.flex-container{
+    display:flex;
+    justify-content:center;
+    padding:2rem 0;
+}
+
+/************** colori **********+*/
+
+.celeste{
+    background-color: rgb(173, 216, 230);
+}
+.ocra{
+    background-color: rgb(218,165,32);
+}
+.blue{
+    background-color: rgb(0,0,139);
+}
+.fucsia{
+    background-color: rgb(238,130,238);
+}
+
+/************** prima sezione **********+*/
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height:4rem;
+}
+.logo,.link,.login{
+    border:dotted black;
+    padding:0.5rem;
+}
+.logo{
+    width:20%;
+}
+.link{
+    width:60%;
+    text-align: center;
+}
+.login{
+    width:20%;
+}
+.container{
+    height:calc(17rem + 3px);
+}
+.container1{
+    height:13rem;
+    width:35rem;
+}
+
