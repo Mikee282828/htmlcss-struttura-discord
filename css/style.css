@@ -1,0 +1,10 @@
+:root{
+    
+}
+
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding:1 rem;
+    margin:0;
+}
