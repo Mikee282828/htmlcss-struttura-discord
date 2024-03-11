@@ -31,6 +31,13 @@
 .fucsia{
     background-color: rgb(238,130,238);
 }
+.pink{
+    background-color: rgb(255,192,203);
+
+}
+.light_blue{
+    background-color: rgb(30, 144, 255);
+}
 
 /************** prima sezione **********+*/
 
@@ -60,5 +67,18 @@
 .container1{
     height:13rem;
     width:35rem;
+    border:dotted black;
+}
+/*************** seconda sezione *****************/
+
+.container2,.container3{
+    border:dotted black;
+    height:20rem;
+}
+.container2{
+    width:60%;
+}
+.container3{
+    width:40%;
 }
 
