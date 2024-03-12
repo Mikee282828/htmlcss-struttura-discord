@@ -11,12 +11,6 @@
     margin-right:auto;
 }
 
-.flex-container{
-    display:flex;
-    justify-content:center;
-    padding:2rem 0;
-}
-
 .container1,.container2,.container3,.container4,.container5,.container6{
     border:dotted black;
 }
@@ -88,6 +82,15 @@
 .container1{
     height:13rem;
     width:35rem;
+}
+.flex-container{
+    display:flex;
+    justify-content:center;
+    padding:2rem 0;
+}
+
+.container{
+    height:calc(17rem + 3px);
 }
 /*************** seconda sezione *****************/
 
