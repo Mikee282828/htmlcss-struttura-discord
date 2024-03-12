@@ -62,21 +62,18 @@
     display: flex;
     justify-content: center;
     align-items:center;
-    height:4rem;
+    padding:1rem 0;
 }
 .logo,.link,.login{
     border:dotted black;
     padding:0.5rem;
 }
-.logo{
+.logo,.login{
     width:20%;
 }
 .link{
     width:60%;
     text-align: center;
-}
-.login{
-    width:20%;
 }
 
 .container1{
